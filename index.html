@@ -15,6 +15,9 @@
                     <div class="text-center my-5">
                         <button class="btn btn-success" @click="getEmails()">Genera mail</button>
                     </div>
+                    <ul class="text-center list-unstyled">
+                        <li v-for="email in emails"> {{ email }} </li>
+                    </ul>
                 </div>
             </div>
         </div>
